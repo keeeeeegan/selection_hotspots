@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Find the dangers</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Oswald:400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script type="text/javascript" src="game.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="description">
+		<h1>Find The Dangers!</h1>
+		<p>Click on the dangers below to earn points!</p>
+	</div>
+
+	<div class="stage">
+
+		<div class="node" id="node1" data-node="1" data-points="10" data-discovered="no" data-feedback="Good!">
+			<p>Unattached tube</p>
+		</div>
+		<div class="node" id="node2" data-node="2" data-points="10" data-discovered="no" data-feedback="Great!">
+			<p>Misplaced uniform</p>
+		</div>
+		<div class="node" id="node3" data-node="3" data-points="10" data-discovered="no" data-feedback="You've found it!">
+			<p>Forgotten glasses</p>
+		</div>
+		<div class="node" id="node4" data-node="4" data-points="10" data-discovered="no" data-feedback="Good job!">
+			<p>Unplugged machine</p>
+		</div>
+		<div class="node" id="node5" data-node="5" data-points="10" data-discovered="no" data-feedback="Wonderful!">
+			<p>Open Door</p>
+		</div>
+
+	</div>
+
+	<div class="message">
+		<p>You've found them all! Congratuations</p>
+	</div>	
+
+	<div class="score">
+		<ul>
+			<li class="found">Found: <span>0</span></li>
+			<li class="points">Score: <span>0</span></li>
+		</ul>
+	</div>
+
+	<div class="feedback">
+		<p></p>
+	</div>	
+
+	<div class="foot">
+		<p>&copy; 2012</p>
+	</div>		
+
+</div>
+
+</body>
+</html>
